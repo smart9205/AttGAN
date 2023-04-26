@@ -1,0 +1,24 @@
+
+1. "Bald",
+2. "Bangs",
+3. "Black_Hair",
+4. "Blond_Hair",
+5. "Brown_Hair",
+6. "Bushy_Eyebrows",
+7. "Eyeglasses",
+8.  "Male",
+9.  "Mouth_Slightly_Open",
+10. "Mustache",
+11. "No_Beard",
+12. "Pale_Skin",
+13. "Young"
+
+
+
+commmand line:
+
+python server.py --image <image name> --attr <attributes number above>
+
+ex: To implement "Mustache" for "Picture1.png", run below command
+
+python server.py --image Picture1.png --attr 10
